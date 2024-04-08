@@ -1,0 +1,15 @@
+{
+  "name": "samo-med",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maftuna",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.65.1",
+    "pg": "^8.11.5"
+  }
+}
