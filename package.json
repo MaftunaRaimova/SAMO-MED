@@ -4,12 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "bash -c 'sleep 10 && npm run migrate:db'",
+    "migrate:db": "psql -h postgres -U postgres -d samo-bot -a -f ./init.sql"
   },
   "author": "Maftuna",
   "license": "ISC",
   "dependencies": {
     "node-telegram-bot-api": "^0.65.1",
     "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }

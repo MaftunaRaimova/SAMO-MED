@@ -4,7 +4,7 @@ const db = require('./db'); // db connection
 const SAMO_CONTACT_GROUP = -4124375567;
 const SAMO_JALOBI = -4128612943;
 const SAMO_SEND_MESSAGES_GROUP = -4193748359;
-const TOKEN = 'TOKEN';
+const TOKEN = '6629211406:AAHPMmtB6vRbVUSrGDwoOTkOrPhkycyHMEY';
 const bot = new TelegramBot(TOKEN, 
 {
     polling: 
